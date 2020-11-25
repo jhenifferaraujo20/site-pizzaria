@@ -1,3 +1,45 @@
-*{
+body{
     background: url(../images/fundo.jpg);
+    font-family: Verdana;
+    margin: 0%;
 }
+
+.container{
+    margin: 0 auto;
+    width: 960px;
+}
+
+.menu{
+    background-color: #f1bf26;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+.menu li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.cabeçalho{
+    background: #c22e14;
+    padding: 5px;
+}
+
+.conteudo-principal{
+    margin-bottom: 20px;
+    padding: 30px;
+    background: white;
+}
+  
