@@ -34,7 +34,8 @@ li a{
 
 .cabeçalho{
     background: #c22e14;
-    padding: 5px;
+    padding: 20px 4% 0 4%;
+    color: white;
 }
 
 .conteudo-principal{
@@ -42,4 +43,3 @@ li a{
     padding: 30px;
     background: white;
 }
-  
