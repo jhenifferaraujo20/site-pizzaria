@@ -1,45 +1,63 @@
 body{
     background: url(../images/fundo.jpg);
-    font-family: Verdana;
-    margin: 0%;
-}
-
-.container{
-    margin: 0 auto;
-    width: 960px;
-}
-
-.menu{
-    background-color: #f1bf26;
-}
-
-ul{
-    list-style-type: none;
     margin: 0;
-    padding: 0;
-    overflow: hidden; 
+}
+
+.cabecalho{
+    border: 1px solid rgb(165, 49, 3);
+    margin: 0 150px;
+    padding: 20px;
+    background: rgb(165, 49, 3);
+}
+
+.cabecalho p{
+    text-align: right;
+    color: white;
+    float: right;
+    padding-top: 35px;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0 150px;
+    padding: 3px 20px;
+    overflow: hidden;
+    background: rgb(226, 174, 0);
 }
 
 .menu li{
     float: left;
 }
 
-li a{
+li a {
     display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 8px;
     text-decoration: none;
-}
-
-.cabeçalho{
-    background: #c22e14;
-    padding: 20px 4% 0 4%;
-    color: white;
+    color: black;
+    background: rgb(226, 174, 0);
 }
 
 .conteudo-principal{
-    margin-bottom: 20px;
-    padding: 30px;
+    border: 1px solid white;
+    margin: 0 150px;
+    padding: 25px;
     background: white;
+}
+
+.lista-imagens{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+}
+
+h1{
+    border-bottom: 1px solid black;
+}
+
+.rodape{
+    background: rgb(48, 47, 47);
+    color: white;
+    margin: 0 150px;
+    padding: 1px;
 }
