@@ -40,7 +40,7 @@ li a {
 .conteudo-principal{
     border: 1px solid white;
     margin: 0 150px;
-    padding: 25px;
+    padding: 30px;
     background: white;
 }
 
@@ -51,6 +51,11 @@ li a {
     justify-content: space-between;
 }
 
+.lista-sabores{
+    list-style-type: none;
+    padding: 0;
+}
+
 h1{
     border-bottom: 1px solid black;
 }
@@ -59,5 +64,5 @@ h1{
     background: rgb(48, 47, 47);
     color: white;
     margin: 0 150px;
-    padding: 1px;
+    padding: 1px 30px;
 }
