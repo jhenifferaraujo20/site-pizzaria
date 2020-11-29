@@ -1,6 +1,7 @@
 body{
     background: url(../images/fundo.jpg);
     margin: 0;
+    font-family: "Montserrat";
 }
 
 .cabecalho{
