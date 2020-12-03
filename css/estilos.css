@@ -69,6 +69,9 @@ h1{
     display: inline-block;
 }
 
+.cardapio img{
+    float: left;
+}
 .rodape{
     background: rgb(48, 47, 47);
     color: white;
