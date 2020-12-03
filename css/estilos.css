@@ -2,6 +2,7 @@ body{
     background: url(../images/fundo.jpg);
     margin: 0;
     font-family: "Montserrat";
+    color: rgb(48, 47, 47);
 }
 
 .cabecalho{
@@ -45,20 +46,27 @@ li a {
     background: white;
 }
 
-.lista-imagens{
+.lista-imagens ul{
     list-style: none;
     display: flex;
     padding-left: 0;
     justify-content: space-between;
 }
 
-.lista-sabores{
-    list-style-type: none;
-    padding: 0;
-}
-
 h1{
     border-bottom: 1px solid black;
+}
+
+.cardapio ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: justify;
+    column-count: 3;
+    line-height: 20px;
+}
+
+.cardapio{
+    display: inline-block;
 }
 
 .rodape{
