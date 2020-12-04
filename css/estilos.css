@@ -98,6 +98,15 @@ h1{
     display: inline-block;
 }
 
+.formulario{
+    position: absolute;
+}
+
+.contato{
+    padding-left: 70%;
+    position: relative
+}
+
 .rodape{
     background: rgb(48, 47, 47);
     color: white;
