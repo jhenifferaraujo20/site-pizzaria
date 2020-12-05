@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <main class="conteudo">
+    <main class="container">
         <header class="cabecalho">
             <img src="images/logotipo.fw.png">
             <p>Disk entregas:<br>
@@ -36,15 +36,15 @@
                     Utilize o formulário de contato para enviar sua mensagem:
                 </p>
 
-                <form action="contato.php" method="GET">
+                <form action="contato.php" method="post">
                     <p>
-                        Nome<br>
-                        <input type="text" name="nome" size="35">
+                        <label for="nome">Nome</label><br>
+                        <input type="text" name="nome" size="40">
                     </p>
 
                     <p>
-                        Email<br>
-                        <input type="text" name="email" size="35">
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" size="40">
                     </p>
 
                     <p>
@@ -52,7 +52,7 @@
                         <textarea name="mensagem" rows="5" cols="70"></textarea>
                     </p>
 
-                    <input type="submit" value="Enviar">
+                    <button type="submit">Enviar</button>
                 </form>
             </div>
 

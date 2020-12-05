@@ -44,6 +44,7 @@ li a {
     margin: 0 150px;
     padding: 30px;
     background: white;
+    font-size: 14px;
 }
 
 .lista-imagens ul{
@@ -78,11 +79,27 @@ h1{
     color: rgb(165, 49, 3);
 }
 
-#sobre-nos{
-    padding-left: 120px;
+.cardapio p{
+    padding-left: 10px;
 }
 
-.box-1 img{
+#sobre-nos{
+    padding-left: 110px;
+}
+
+.conteudo{
+    display: flex;
+}
+
+.texto{
+    width: 50%;
+}
+
+.galeria{
+    width: 50%;
+}
+
+.galeria img{
     width: 130px;
 }
 
