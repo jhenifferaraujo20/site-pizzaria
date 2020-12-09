@@ -15,28 +15,27 @@ body{
 .cabecalho p{
     text-align: right;
     color: white;
+    font-size: 20px;
     float: right;
-    padding-top: 35px;
+    padding-top: 20px;
+}
+
+.menu li{
+    display: inline;
 }
 
 .menu ul{
     list-style-type: none;
     margin: 0 150px;
-    padding: 3px 20px;
-    overflow: hidden;
+    padding: 10px;
     background: rgb(226, 174, 0);
 }
 
-.menu li{
-    float: left;
-}
-
-li a {
-    display: block;
+.menu a{
     padding: 8px;
     text-decoration: none;
     color: black;
-    background: rgb(226, 174, 0);
+    font-weight: bold;
 }
 
 .conteudo-principal{
@@ -44,84 +43,115 @@ li a {
     margin: 0 150px;
     padding: 30px;
     background: white;
-    font-size: 14px;
-}
-
-.lista-imagens ul{
-    list-style: none;
-    display: flex;
-    padding-left: 0;
-    justify-content: space-between;
+    font-size: 15px;
 }
 
 h1{
     border-bottom: 1px solid black;
+    font-size: 40px;
+}
+
+.imagens-destaque ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.imagens-destaque li{
+    list-style: none;
+}
+
+.imagens-destaque figure{
+    margin-left: -40px;
+    padding-right: 45px;
+}
+
+.imagens-destaque figcaption{
+    text-align: center;
+}
+
+.imagens-destaque{
+    border-bottom: 1px solid black;
+}
+
+.container{
+    display: flex;
+}
+
+.cardapio{
+    width: 50%;
 }
 
 .cardapio ul{
     list-style-type: none;
     padding: 0;
-    text-align: justify;
+    text-justify: auto;
     column-count: 3;
     line-height: 20px;
 }
 
-.cardapio{
-    display: inline-block;
+.quem-somos{
+    width: 50%;
+    padding-left: 130px;
 }
 
-.cardapio img{
+.quem-somos img{
     float: left;
 }
 
-.cardapio a{
+.quem-somos p{
+    padding-left: 160px;
+}
+
+.quem-somos a{
     text-decoration: none;
     color: rgb(165, 49, 3);
-}
-
-.cardapio p{
-    padding-left: 10px;
-}
-
-#sobre-nos{
-    padding-left: 110px;
+    padding-left: 20px;
 }
 
 .conteudo{
     display: flex;
 }
 
-.texto{
+.texto, .galeria{
     width: 50%;
 }
 
-.galeria{
-    width: 50%;
+.galeria h2{
+    padding-left: 40px;
+}
+
+.galeria figure{
+    align-content: space-around;
 }
 
 .galeria img{
     width: 130px;
 }
 
-.box-2{
-    display: inline-block;
+.missao{
+    width: 50%;
 }
 
-.box-2 li{
-    list-style-type: none;
+.valores{
+    width: 50%;
+    padding-left: 80px;
 }
 
-.formulario, .contato{
-    display: inline-block;
-}
-
-.formulario{
-    position: absolute;
+.valores li{
+    list-style-type: square;
 }
 
 .contato{
-    padding-left: 70%;
-    position: relative
+    display: flex;
+}
+
+.formulario{
+    width: 70%;
+}
+
+.info-contato{
+    width: 29%;
 }
 
 .rodape{

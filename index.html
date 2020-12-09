@@ -11,36 +11,48 @@
 </head>
 
 <body>
-    <main class="container">
-        <header class="cabecalho">
-            <img src="images/logotipo.fw.png" alt="Logo">
-            <p>Disk entregas:<br>
-                (19) 1234-5678</p>
-            <div class="clear"></div>
-        </header>
+    <header class="cabecalho">
+        <img src="images/logotipo.fw.png" alt="Logo">
+        <p>Disk entregas:<br>
+            (19) 1234-5678</p>
+        <div class="clear"></div>
+    </header>
 
-        <nav class="menu">
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quem-somos.html">Quem somos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main class="conteudo-principal">
+        <h1>A melhor pizza da região!</h1>
+
+        <div class="imagens-destaque">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="quem-somos.html">Quem somos</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li>
+                    <figure>
+                        <img src="images/calabreza.jpg" alt="Imagem de uma pizza de calabresa">
+                        <figcaption>Calabresa</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/siciliana.jpg" alt="Imagem de uma pizza siciliana">
+                        <figcaption>Siciliana</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/portuguesa.jpg" alt="Imagem de uma pizza portuguesa">
+                        <figcaption>Portuguesa</figcaption>
+                    </figure>
+                </li>
             </ul>
-        </nav>
+        </div>
 
-        <div class="conteudo-principal">
-            <div class="lista-imagens">
-                <h1>A melhor pizza da região!</h1>
-
-                <ul>
-                    <li><img src="images/calabreza.jpg" alt="Imagem pizza de calabresa"></li>
-                
-                    <li><img src="images/siciliana.jpg" alt="Imagem pizza siciliana"></li>
-
-                    <li><img src="images/portuguesa.jpg" alt="Imagem pizza portuguesa"></li>
-                </ul>
-            </div>
-
-            <hr>
+        <div class="container">
             <div class="cardapio">
                 <h2>Nossos sabores</h2>
                 <ul>
@@ -67,27 +79,26 @@
                 </ul>
             </div>
 
-            <div class="cardapio" id="sobre-nos">
+            <div class="quem-somos">
                 <h2>Uma casa com história</h2>
+                <img src="images/historia.jpg" alt="Forno a lenha">
                 <p>
-                    <img src="images/historia.jpg" alt="Forno a lenha">
                     Muito famosa em toda a região por<br>
                     sua excelência na qualidade, a<br>
                     nossa pizzaria tem mais de 25<br>
                     anos de história.
-                    <p>
-                    <a href="quem-somos.html">Conheça</a>
-                    </p>
                 </p>
+                <a href="quem-somos.html">Conheça</a>
+
             </div>
         </div>
-
-        <footer class="rodape">
-            <p>
-                <small>Aula do SENAC. Declaração de direitos autorais.</small>
-            </p>
-        </footer>
     </main>
+
+    <footer class="rodape">
+        <p>
+            <small>Aula do SENAC. Declaração de direitos autorais.</small>
+        </p>
+    </footer>
 </body>
 
 </html>
